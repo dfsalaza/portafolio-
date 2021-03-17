@@ -1,0 +1,731 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+h1,h2,h3,h4,h5,h6,p,button,a,li{
+    font-family: 'Grandstander', cursive;
+}
+
+/* inicio header */
+header .bg-blue{
+    width: 100%;
+    position: relative;
+    display: block;
+    background: #2396bd;
+}
+
+header  nav  .container .navbar-collapse{
+    justify-content: flex-end;
+} 
+/* fin header */
+
+/* inicio portada */
+#portada{
+    width: 100%;
+    position: relative;
+    display: block;
+    background: url(../img/34253.jpg);
+    padding-top: 25px;
+    padding-bottom: 150px;
+    background-size: cover;
+    text-align: center;
+}
+
+#portada .container{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: #2396bd;
+    padding: 60px 60px;
+    margin-top: 200px;
+
+}
+/* fin portada */
+
+/* inicio perfil */
+#perfil{
+    width: 100%;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 100px;  
+    text-align: center;
+    background: url(../img/34253.jpg);
+}
+
+#perfil .container{
+    background: #2396bd;
+}
+
+#perfil .foto-datos .fotoda{
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#perfil .foto-datos .fotoda img{
+    margin-top: -120px;
+}
+
+#perfil .foto-datos .fotoda p{
+    background: #2396bd;
+    margin-top: 40px;
+    padding-top: 80px;
+    padding-bottom: 210px;
+    margin-right: -60px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+/* fin perfil */
+
+/* INICIO HABILIDADES */
+#habilidades{
+    width: 100%;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: url(../img/34253.jpg);
+}
+
+#habilidades .container h1{
+    background: #2396bd;
+}
+
+#habilidades .container .row .programas {
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    margin-top: 230px;
+    margin-bottom: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#habilidades .container .row h2{
+    background: #2396bd;
+    margin-top: 20px;
+}
+
+/* FIN HABILIDADES */
+
+/* INICIO EDUCACION */
+#educacion{
+    width: 100%;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 100px;  
+    text-align: center;
+    background: url(../img/34253.jpg);
+}
+
+#educacion .container h1{
+    background: #2396bd;
+}
+
+#educacion .primaria .inter{
+    width: 30%;
+    display: inline-block;
+    position: relative;
+}
+
+#educacion .primaria .inter p{
+    background: #2396bd;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-right: 70px;
+    margin-left: -150px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#educacion .primaria .inter img{
+    margin-top: -160px;
+}
+
+#educacion .bachillerato .inter{
+    width: 30%;
+    display: inline-block;
+    position: relative;
+}
+
+#educacion .bachillerato .inter p{
+    background: #2396bd;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: -150px;
+    margin-top: 90px;
+}
+
+#educacion .bachillerato .inter img{
+    margin-top: -70px;
+    margin-left: -190px;
+}
+
+#educacion .tec .inter{
+    width: 30%;
+    display: inline-block;
+    position: relative;
+}
+
+#educacion .tec .inter p{
+    background: #2396bd;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-right: -1px;
+    margin-left: -170px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#educacion .tec .inter img{
+    margin-top: -150px;
+    margin-left: 40px;
+}
+/* fin educacion */
+
+/* INICIO PORTAFOLIO */
+#portafolio{
+    width: 100%;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 100px;  
+    text-align: center;
+    background: url(../img/34253.jpg);
+}
+
+#portafolio .container h1{
+    background: #2396bd;
+}
+
+#portafolio .carrusel {
+    position: relative;
+    width: 60%;
+    height: 30%;
+    margin-top: 50px;
+    margin-right: 50px ;
+    margin-left: 270px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* FIN PORTAFOLIO */
+
+/* inicio footer */
+
+footer{
+    background: #2396bd;
+    padding-top: 30px ;
+    padding-bottom: 45px;
+  
+}
+
+footer p{
+    margin-left: 30px;
+    font-size: 35px;
+    text-align: center;
+}
+/* fin footer */
+
+#btn-elemento{
+    position: fixed;
+    z-index: 11;
+    top: 144px;
+    right: -80px;
+    transform: rotate(-90deg);
+    background: #2396bd;
+    color: black;
+    padding: 13px 78px;
+    border: none;
+    transition: .4s;
+    outline: none;
+}
+
+#btn-elemento.active{
+    right: 207px;
+    transition: .4s;
+}
+
+#cont-colors{
+    background: white;
+    position: fixed;
+    z-index: 11;
+    top: 69px;
+    right: -285px;
+    padding: 57px 20px;
+    transition: .4s;
+}
+
+#cont-colors.active{
+    right: 0;
+    transition: .4s;
+}
+
+#cont-colors #grey{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: gray;
+    outline: none;
+}
+
+#cont-colors #yellow{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: yellow;
+    outline: none;
+}
+
+#cont-colors #orange{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: orange;
+    outline: none;
+}
+
+#cont-colors #brown{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: brown;
+    outline: none;
+}
+
+#cont-colors #blue{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: #2396bd;
+    outline: none;
+}
+
+
+#cont-colors h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* VARIANTES DE COLORES O TEMAS*/
+
+/* inicio gray */
+#body.grey header .bg-blue{
+    transition: .4s;
+    background: gray;
+}
+
+#body.grey #btn-elemento{
+    background: gray;
+}
+
+
+#body.grey #portada .container{
+    transition: .4s;
+    background: gray;
+}
+
+#body.grey #perfil .container {
+    transition: .4s;
+    background: gray;
+}
+
+#body.grey #perfil .foto-datos .fotoda p{
+    transition: .4s;
+    background: gray;
+}
+
+#body.grey #habilidades .container h1{
+    transition: .4s;
+    background: gray;
+}
+
+#body.grey #habilidades .container .row h2{
+    transition: .4s;
+    background: gray;
+}
+
+#body.grey #educacion .container h1{
+    transition: .4s;
+    background: gray;
+}
+
+#body.grey #educacion .primaria .inter p{
+    transition: .4s;
+    background: gray;
+}
+
+#body.grey #educacion .bachillerato .inter p{
+    transition: .4s;
+    background: gray;
+}
+
+#body.grey #educacion .tec .inter p{
+    transition: .4s;
+    background: gray;
+}
+
+#body.grey #portafolio .container h1{
+    transition: .4s;
+    background: gray;
+}
+
+#body.grey footer{
+    transition: .4s;
+    background: gray;
+}
+
+/* inicio Yellow() */
+
+#body.yellow header .bg-blue{
+    transition: .4s;
+    background: yellow;
+}
+
+#body.yellow #btn-elemento{
+    background: yellow;
+}
+
+
+#body.yellow #portada .container{
+    transition: .4s;
+    background: yellow;
+}
+
+#body.yellow #perfil .container {
+    transition: .4s;
+    background: yellow;
+}
+
+#body.yellow #perfil .foto-datos .fotoda p{
+    transition: .4s;
+    background: yellow;
+}
+
+#body.yellow #habilidades .container h1{
+    transition: .4s;
+    background: yellow;
+}
+
+#body.yellow #habilidades .container .row h2{
+    transition: .4s;
+    background: yellow;
+}
+
+#body.yellow #educacion .container h1{
+    transition: .4s;
+    background: yellow;
+}
+
+#body.yellow #educacion .primaria .inter p{
+    transition: .4s;
+    background: yellow;
+}
+
+#body.yellow #educacion .bachillerato .inter p{
+    transition: .4s;
+    background: yellow;
+}
+
+#body.yellow #educacion .tec .inter p{
+    transition: .4s;
+    background: yellow;
+}
+
+#body.yellow #portafolio .container h1{
+    transition: .4s;
+    background: yellow;
+}
+
+#body.yellow footer{
+    transition: .4s;
+    background: yellow;
+}
+
+/* inicio orange */
+
+#body.orange header .bg-blue{
+    transition: .4s;
+    background: orange;
+}
+
+#body.orange #btn-elemento{
+    background: orange;
+}
+
+
+#body.orange #portada .container{
+    transition: .4s;
+    background: orange;
+}
+
+#body.orange #perfil .container {
+    transition: .4s;
+    background: orange;
+}
+
+#body.orange #perfil .foto-datos .fotoda p{
+    transition: .4s;
+    background: orange;
+}
+
+#body.orange #habilidades .container h1{
+    transition: .4s;
+    background: orange;
+}
+
+#body.orange #habilidades .container .row h2{
+    transition: .4s;
+    background: orange;
+}
+
+#body.orange #educacion .container h1{
+    transition: .4s;
+    background: orange;
+}
+
+#body.orange #educacion .primaria .inter p{
+    transition: .4s;
+    background: orange;
+}
+
+#body.orange #educacion .bachillerato .inter p{
+    transition: .4s;
+    background: orange;
+}
+
+#body.orange #educacion .tec .inter p{
+    transition: .4s;
+    background: orange;
+}
+
+#body.orange #portafolio .container h1{
+    transition: .4s;
+    background: orange;
+}
+
+#body.orange footer{
+    transition: .4s;
+    background: orange;
+}
+
+/* inicio brown */
+
+#body.brown header .bg-blue{
+    transition: .4s;
+    background: brown;
+}
+
+#body.brown #btn-elemento{
+    background: brown;
+}
+
+
+#body.brown #portada .container{
+    transition: .4s;
+    background: brown;
+}
+
+#body.brown #perfil .container {
+    transition: .4s;
+    background: brown;
+}
+
+#body.brown #perfil .foto-datos .fotoda p{
+    transition: .4s;
+    background: brown;
+}
+
+#body.brown #habilidades .container h1{
+    transition: .4s;
+    background: brown;
+}
+
+#body.brown #habilidades .container .row h2{
+    transition: .4s;
+    background: brown;
+}
+
+#body.brown #educacion .container h1{
+    transition: .4s;
+    background: brown;
+}
+
+#body.brown #educacion .primaria .inter p{
+    transition: .4s;
+    background: brown;
+}
+
+#body.brown #educacion .bachillerato .inter p{
+    transition: .4s;
+    background: brown;
+}
+
+#body.brown #educacion .tec .inter p{
+    transition: .4s;
+    background: brown;
+}
+
+#body.brown #portafolio .container h1{
+    transition: .4s;
+    background: brown;
+}
+
+#body.brown footer{
+    transition: .4s;
+    background: brown;
+}
+
+
+
+
+
+
+
+/* responsiv tablet */
+@media screen and (max-width:1024px) and (min-width:1000px){
+
+
+    #portada .container {
+        width: 70%;
+    }
+
+    #perfil .container{
+        width: 70%;
+    }
+
+    #perfil .foto-datos .fotoda{
+        width: 70%;
+        display: inline-block;
+    }
+
+    #perfil .foto-datos .fotoda img{
+        max-width: 70%;
+        max-height: 70%;
+        margin: 0% 0%;
+    }
+
+    #perfil .foto-datos .fotoda p{
+        width: 85%;
+    }
+
+    #habilidades .container{
+        width: 70%;
+    }
+
+
+    #habilidades .container .row .programas img{
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0% 0%;
+
+    }
+
+    #educacion .container{
+        width: 70%;
+    }
+
+    #educacion .primaria .inter p{
+        width: 140%;
+    }
+
+    #educacion .bachillerato .inter p{
+        width: 140%;
+    }
+
+    #educacion .tec .inter p{
+        width: 150%;
+    }
+
+    #portafolio .container{
+        width: 70%;
+    }
+
+    #portafolio .carrusel{
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+}
+
+/* responsiv phone */
+@media screen and (max-width:568px) and (min-width:320px){
+
+    
+    #portada .container {
+        width: 80%;
+    }
+
+    #portada .container h1 h2{
+        width: 30%;
+    }
+
+    #perfil .container{
+        width: 70%;
+    }
+
+    #perfil .foto-datos .fotoda{
+        width: 70%;
+        display: inline-block;
+    }
+
+    #perfil .foto-datos .fotoda img{
+        max-width: 110%;
+        max-height: 3%;
+        margin: 0% 0%;
+    }
+
+    #perfil .foto-datos .fotoda p{
+        width: 90%;
+    }
+
+    #habilidades .container{
+        width: 70%;
+    }
+
+
+    #habilidades .container .row .programas img{
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0% 0%;
+
+    }
+
+    #educacion .container{
+        width: 70%;
+    }
+
+    #educacion .primaria .inter p{
+        width: 40%;
+    }
+    
+
+    #educacion .bachillerato .inter p{
+        width: 140%;
+    }
+
+    #educacion .tec .inter p{
+        width: 150%;
+    }
+
+    #portafolio .container{
+        width: 70%;
+    }
+
+    #portafolio .carrusel{
+        width: 90%;
+        margin-left: 4%;
+    }
+
+    footer .cos p{
+        width: -500%;
+    }
+
+}
